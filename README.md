@@ -9,13 +9,13 @@ Given the substantial and intricate seasonality inherent in traffic time series,
 Our study introduces employing Diagonally-Masked Self-Attention mechanism to accomplish the observation reconstruction task. 
 
 ## MAITTS: Mit block&Attention-based Imputation for Traffic Time Series
-|  ![Figure1](figs\MAITTS_structure.PNG)  |
-| :-------------------------------------: |
-| *Figure 1. Overall structure of MAITTS* |
+| ![Figure1](https://github.com/RuojianLi/MAITTS/blob/master/figs/MAITTS_structure.png) |
+| :----------------------------------------------------------: |
+|           *Figure 1. Overall structure of MAITTS*            |
 
 
 ## Main Results
-![experimental_result](figs\experimental_result.png)
+![experimental_result](https://github.com/RuojianLi/MAITTS/blob/master/figs/experimental_result.png)
 
 
 ## Get Started
