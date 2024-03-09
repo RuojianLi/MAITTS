@@ -1,4 +1,4 @@
-# MAITTS (IEEE ITSC 2024 paper)
+# MAITTS 
 
 <font size=5.5>Multi-scale traffic time series imputation and observed reconstruction: A joint multi-task training approach</font>
 
@@ -21,7 +21,7 @@ Our study introduces employing Diagonally-Masked Self-Attention mechanism to acc
 ## Get Started
 
 1. All dependencies of our development environment are listed in file [`conda_env_dependencies.yml`](conda_env_dependencies.yml). You can quickly create a usable python environment with an anaconda command `conda env create -f conda_env_dependencies.yml`.
-2. Download data. You can download data from the [highD](https://levelxdata.com/highd-dataset/) website. Place the downloaded data in "\data\data_preprocessing".
+2. Download data. You can download data from the [highD](https://levelxdata.com/highd-dataset/) website. Place the downloaded data in "\data_preprocessing".
 3. Train the model. We have provided the experimental files of MAITTS in "run_model.py". You can reproduce  experiment results by running the following  code:
 
 ```bash
