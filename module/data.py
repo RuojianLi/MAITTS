@@ -1,20 +1,16 @@
-# Copyright (C) 2024 - 2024 Ruojian Li， Inc. All Rights Reserved
-# @Time    : 2024/3/8 21:30
-# @Email   : ruojian_li@163.com
-# License: MIT
 from typing import Union, Iterable
 import torch
 from pycorruptor import mcar
 from pypots.data import BaseDataset
 
 
-class DatasetForSAITS(BaseDataset):
+class DatasetForMAIITS(BaseDataset):
     def __init__(
-        self,
-        data: Union[dict, str],
-        return_labels: bool = True,
-        file_type: str = "h5py",
-        rate: float = 0.2,
+            self,
+            data: Union[dict, str],
+            return_labels: bool = True,
+            file_type: str = "h5py",
+            rate: float = 0.2,
     ):
         super().__init__(data, return_labels, file_type)
         self.rate = rate

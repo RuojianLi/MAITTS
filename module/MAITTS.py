@@ -17,7 +17,7 @@ from pypots.optim.base import Optimizer
 from pypots.utils.metrics import cal_mae
 from torch.utils.data import DataLoader
 
-from module.data import DatasetForSAITS
+from module.data import DatasetForMAIITS
 
 
 class MAITTS(BaseNNImputer):
@@ -127,7 +127,7 @@ class MAITTS(BaseNNImputer):
             val_set: Optional[Union[dict, str]] = None,
             file_type: str = "h5py",
     ) -> None:
-        training_set = DatasetForSAITS(
+        training_set = DatasetForMAIITS(
             train_set, return_labels=False, file_type=file_type
         )
         training_loader = DataLoader(
