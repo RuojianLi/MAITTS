@@ -1,4 +1,4 @@
-name: MAITTS
+name   名字: MAITTS
 
 channels:
   - pytorch
@@ -8,7 +8,7 @@ channels:
 dependencies:
   - conda-forge::python >=3.8.8
   - conda-forge::numpy
-  - conda-forge::matplotlib
+  - conda-forge::matplotlib——conda-forge:: matplotlib
   - conda-forge::scikit-learn
   - conda-forge::h5py
   - conda-forge::pandas=1.5.3
@@ -17,4 +17,3 @@ dependencies:
   - pytorch::pytorch=1.2.1
   - pip:
     - nni==2.1
-    - pypots=0.1.4
