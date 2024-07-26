@@ -1,12 +1,5 @@
 # MAITTS 
 
-<font size=5.5>Multi-scale traffic time series imputation and observed reconstruction: A joint multi-task training approach</font>
-
-Our study introduces a multi-task training approach for missing data imputation in traffic time series and observed reconstruction. 
-
-Given the substantial and intricate seasonality inherent in traffic time series, this paper employs Fast Fourier Variation to transform one-dimensional multi-scale time series into two-dimensional data, thereby representing the sequence information. Additionally, the MLP structure is utilized to capture sequence features across both Intraperiod Variation and Interperiod Variation. 
-
-Our study introduces employing Diagonally-Masked Self-Attention mechanism to accomplish the observation reconstruction task. 
 
 ## MAITTS: Mit block&Attention-based Imputation for Traffic Time Series
 | ![Figure1](/figs/MAITTS_structure.png)  |
