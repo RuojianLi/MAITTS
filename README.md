@@ -1,7 +1,4 @@
-# MAITTS 
 
-
-## MAITTS: Mit block&Attention-based Imputation for Traffic Time Series
 | ![Figure1](/figs/MAITTS_structure.png)  |
 | :-------------------------------------: |
 | *Figure 1. Overall structure of MAITTS* |
